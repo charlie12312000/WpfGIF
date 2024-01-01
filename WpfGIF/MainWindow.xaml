@@ -1,0 +1,18 @@
+﻿<Window x:Name="Vform" x:Class="WpfGIF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfGIF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="512" Width="512"
+        AllowsTransparency = "True"
+        WindowStyle="None"
+        Background = "Transparent" KeyDown="Vform_KeyDown">
+    <Grid>
+        <Image x:Name="VImage" Source="/frame0000.png" MouseDown="VImage_MouseDown" MouseUp="VImage_MouseUp" MouseMove="VImage_MouseMove" KeyDown="VImage_KeyDown"/>
+        <!--<Image gif:ImageBehavior.AnimatedSource="/moontail3slo.gif" gif:ImageBehavior.AutoStart="True" />-->
+
+    </Grid>
+</Window>
